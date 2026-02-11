@@ -108,7 +108,29 @@ namespace Lesson_2_Activity
             StudentNumberTxtbox.Clear();
             YearlvlTxtbox.Clear(); 
             ScholarTxtbox.Clear();
-     
+            CourseNumListbox.Items.Clear();
+            CourseCodeListbox.Items.Clear();
+            CourseDescListbox.Items.Clear();
+            UnitLecListbox.Items.Clear();
+            UnitLabListbox.Items.Clear();
+            CreditUnitListbox.Items.Clear();
+            TimeListbox.Items.Clear();
+            DayListbox.Items.Clear();
+            CourseNumTxtbox.Clear();
+            CourseCodeTxtbox.Clear();
+            CourseDescTxtbox.Clear();
+            UnitLecTxtbox.Clear();
+            UnitLabTxtbox.Clear();
+            TimeTxtbox.Clear();
+            DayTxtbox.Clear();
+            CreditUnitTxtBox.Clear();
+           
+            
+
+
+
+
+
         }
 
         private void CourseNumListbox_SelectedIndexChanged(object sender, EventArgs e)
@@ -148,18 +170,28 @@ namespace Lesson_2_Activity
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DayListbox.Items.Add(DayTxtbox);
-            TimeListbox.Items.Add(TimeTxtbox);
-            CreditUnitListbox.Items.Add(CreditUnitTxtBox);
-            UnitLabListbox.Items.Add(UnitLabTxtbox);
-            UnitLecListbox.Items.Add(UnitLecTxtbox);
-            CourseDescListbox.Items.Add(CourseDescTxtbox);
-            CourseCodeListbox.Items.Add(CourseCodeTxtbox);
-            CourseCodeListbox.Items.Add(CourseCodeTxtbox);
+            DayListbox.Items.Add(DayTxtbox.Text);
+            TimeListbox.Items.Add(TimeTxtbox.Text);
+            CreditUnitListbox.Items.Add(CreditUnitTxtBox.Text);
+            UnitLabListbox.Items.Add(UnitLabTxtbox.Text);
+            UnitLecListbox.Items.Add(UnitLecTxtbox.Text);
+            CourseDescListbox.Items.Add(CourseDescTxtbox.Text);
+            CourseCodeListbox.Items.Add(CourseCodeTxtbox.Text);
+            CourseNumListbox.Items.Add (CourseNumTxtbox.Text);
 
         }
 
         private void CourseCodeListbox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DateEnrolledPicker_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog2_FileOk(object sender, CancelEventArgs e)
         {
 
         }

@@ -71,7 +71,6 @@
             this.CourseDescTxtbox = new System.Windows.Forms.TextBox();
             this.CourseCodeTxtbox = new System.Windows.Forms.TextBox();
             this.CourseNumListbox = new System.Windows.Forms.ListBox();
-            this.CourseCodeListbox = new System.Windows.Forms.ListBox();
             this.CourseDescListbox = new System.Windows.Forms.ListBox();
             this.UnitLecListbox = new System.Windows.Forms.ListBox();
             this.UnitLabListbox = new System.Windows.Forms.ListBox();
@@ -108,6 +107,8 @@
             this.label38 = new System.Windows.Forms.Label();
             this.DateEnrolledPicker = new System.Windows.Forms.DateTimePicker();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.CourseCodeListbox = new System.Windows.Forms.ListBox();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -117,6 +118,7 @@
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(218, 139);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -490,15 +492,6 @@
             this.CourseNumListbox.TabIndex = 56;
             this.CourseNumListbox.SelectedIndexChanged += new System.EventHandler(this.CourseNumListbox_SelectedIndexChanged);
             // 
-            // CourseCodeListbox
-            // 
-            this.CourseCodeListbox.FormattingEnabled = true;
-            this.CourseCodeListbox.Location = new System.Drawing.Point(41, 424);
-            this.CourseCodeListbox.Name = "CourseCodeListbox";
-            this.CourseCodeListbox.Size = new System.Drawing.Size(128, 160);
-            this.CourseCodeListbox.TabIndex = 57;
-            this.CourseCodeListbox.SelectedIndexChanged += new System.EventHandler(this.CourseCodeListbox_SelectedIndexChanged);
-            // 
             // CourseDescListbox
             // 
             this.CourseDescListbox.FormattingEnabled = true;
@@ -817,10 +810,25 @@
             this.DateEnrolledPicker.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.DateEnrolledPicker.Size = new System.Drawing.Size(297, 20);
             this.DateEnrolledPicker.TabIndex = 92;
+            this.DateEnrolledPicker.ValueChanged += new System.EventHandler(this.DateEnrolledPicker_ValueChanged);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // CourseCodeListbox
+            // 
+            this.CourseCodeListbox.FormattingEnabled = true;
+            this.CourseCodeListbox.Location = new System.Drawing.Point(41, 424);
+            this.CourseCodeListbox.Name = "CourseCodeListbox";
+            this.CourseCodeListbox.Size = new System.Drawing.Size(128, 160);
+            this.CourseCodeListbox.TabIndex = 57;
+            this.CourseCodeListbox.SelectedIndexChanged += new System.EventHandler(this.CourseCodeListbox_SelectedIndexChanged);
+            // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.FileName = "openFileDialog2";
+            this.openFileDialog2.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog2_FileOk);
             // 
             // Activity_2_form
             // 
@@ -907,7 +915,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Activity_2_form";
-            this.Text = "Activity_2_form";
             this.Load += new System.EventHandler(this.Activity_2_form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -959,7 +966,6 @@
         private System.Windows.Forms.TextBox CourseDescTxtbox;
         private System.Windows.Forms.TextBox CourseCodeTxtbox;
         private System.Windows.Forms.ListBox CourseNumListbox;
-        private System.Windows.Forms.ListBox CourseCodeListbox;
         private System.Windows.Forms.ListBox CourseDescListbox;
         private System.Windows.Forms.ListBox UnitLecListbox;
         private System.Windows.Forms.ListBox UnitLabListbox;
@@ -996,5 +1002,7 @@
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.DateTimePicker DateEnrolledPicker;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ListBox CourseCodeListbox;
+        private System.Windows.Forms.OpenFileDialog openFileDialog2;
     }
 }
