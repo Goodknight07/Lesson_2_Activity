@@ -77,9 +77,13 @@ namespace Lesson_2_Activity
             textBox22.Text = totalTuition.ToString();
 
             //j.
+            double total_labunits = Convert.ToInt32(Labunitstxtbox1.Text) + Convert.ToInt32(Labunitstxtbox2.Text) + Convert.ToInt32(Labunitstxtbox3.Text) + Convert.ToInt32(Labunitstxtbox4.Text) + Convert.ToInt32(Labunitstxtbox5.Text) + Convert.ToInt32(Labunitstxtbox6.Text) + Convert.ToInt32(Labunitstxtbox7.Text);
+            Complabfee = total_labunits * 2500;
             double totalMisc = Complabfee + SAPfee + CISCOlabfee + Exambookletfee;
+            ComlabF.Text = Complabfee.ToString();
             textBox6.Text = totalMisc.ToString();
             textBox28.Text = totalMisc.ToString();
+           
 
             //k
             Complabfee = (Convert.ToDouble(Labunitstxtbox1.Text) + Convert.ToDouble(Labunitstxtbox2.Text) + Convert.ToDouble(Labunitstxtbox3.Text) + Convert.ToDouble(Labunitstxtbox4.Text) + Convert.ToDouble(Labunitstxtbox5.Text) + Convert.ToDouble(Labunitstxtbox6.Text) + Convert.ToDouble(Labunitstxtbox7.Text)) * 2500;
@@ -163,6 +167,8 @@ namespace Lesson_2_Activity
             SapF.Text = SAPfee.ToString();
             CiscolabF.Text = CISCOlabfee.ToString();
             ExambookletF.Text = Exambookletfee.ToString();
+
+            ModecomboBox.Items.Add("Installment");
         }
 
         private void Credunitstxtbox2_TextChanged(object sender, EventArgs e)
@@ -407,6 +413,16 @@ namespace Lesson_2_Activity
 
             totalunitstxtbox.Clear();
 
+
+        }
+
+        private void textBox22_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ComlabF_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

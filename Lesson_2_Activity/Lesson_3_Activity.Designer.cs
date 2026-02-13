@@ -56,6 +56,8 @@
             this.ModecomboBox = new System.Windows.Forms.ComboBox();
             this.label20 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Scholar = new System.Windows.Forms.ComboBox();
+            this.YearLvl = new System.Windows.Forms.ComboBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label43 = new System.Windows.Forms.Label();
             this.textBox168 = new System.Windows.Forms.TextBox();
@@ -80,6 +82,8 @@
             this.clrstudentinf = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.SapF = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label24 = new System.Windows.Forms.Label();
@@ -244,10 +248,6 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.YearLvl = new System.Windows.Forms.ComboBox();
-            this.Scholar = new System.Windows.Forms.ComboBox();
-            this.SapF = new System.Windows.Forms.TextBox();
-            this.label31 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -342,6 +342,7 @@
             this.ComlabF.Name = "ComlabF";
             this.ComlabF.Size = new System.Drawing.Size(213, 20);
             this.ComlabF.TabIndex = 159;
+            this.ComlabF.TextChanged += new System.EventHandler(this.ComlabF_TextChanged);
             // 
             // label34
             // 
@@ -395,6 +396,7 @@
             this.textBox22.Name = "textBox22";
             this.textBox22.Size = new System.Drawing.Size(213, 20);
             this.textBox22.TabIndex = 150;
+            this.textBox22.TextChanged += new System.EventHandler(this.textBox22_TextChanged);
             // 
             // label30
             // 
@@ -530,6 +532,23 @@
             this.groupBox1.Size = new System.Drawing.Size(1034, 877);
             this.groupBox1.TabIndex = 172;
             this.groupBox1.TabStop = false;
+            // 
+            // Scholar
+            // 
+            this.Scholar.FormattingEnabled = true;
+            this.Scholar.Location = new System.Drawing.Point(571, 76);
+            this.Scholar.Name = "Scholar";
+            this.Scholar.Size = new System.Drawing.Size(297, 21);
+            this.Scholar.TabIndex = 181;
+            this.Scholar.SelectedIndexChanged += new System.EventHandler(this.Scholar_SelectedIndexChanged);
+            // 
+            // YearLvl
+            // 
+            this.YearLvl.FormattingEnabled = true;
+            this.YearLvl.Location = new System.Drawing.Point(571, 49);
+            this.YearLvl.Name = "YearLvl";
+            this.YearLvl.Size = new System.Drawing.Size(297, 21);
+            this.YearLvl.TabIndex = 180;
             // 
             // groupBox6
             // 
@@ -770,6 +789,23 @@
             this.groupBox4.TabIndex = 174;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Other School Fees:";
+            // 
+            // SapF
+            // 
+            this.SapF.Location = new System.Drawing.Point(178, 46);
+            this.SapF.Name = "SapF";
+            this.SapF.Size = new System.Drawing.Size(213, 20);
+            this.SapF.TabIndex = 166;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Location = new System.Drawing.Point(16, 48);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(65, 15);
+            this.label31.TabIndex = 167;
+            this.label31.Text = "SAP Fee:";
             // 
             // groupBox3
             // 
@@ -2324,40 +2360,6 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(29, 43);
             this.textBox5.TabIndex = 128;
-            // 
-            // YearLvl
-            // 
-            this.YearLvl.FormattingEnabled = true;
-            this.YearLvl.Location = new System.Drawing.Point(571, 49);
-            this.YearLvl.Name = "YearLvl";
-            this.YearLvl.Size = new System.Drawing.Size(297, 21);
-            this.YearLvl.TabIndex = 180;
-            // 
-            // Scholar
-            // 
-            this.Scholar.FormattingEnabled = true;
-            this.Scholar.Location = new System.Drawing.Point(571, 76);
-            this.Scholar.Name = "Scholar";
-            this.Scholar.Size = new System.Drawing.Size(297, 21);
-            this.Scholar.TabIndex = 181;
-            this.Scholar.SelectedIndexChanged += new System.EventHandler(this.Scholar_SelectedIndexChanged);
-            // 
-            // SapF
-            // 
-            this.SapF.Location = new System.Drawing.Point(178, 46);
-            this.SapF.Name = "SapF";
-            this.SapF.Size = new System.Drawing.Size(213, 20);
-            this.SapF.TabIndex = 166;
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(16, 48);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(65, 15);
-            this.label31.TabIndex = 167;
-            this.label31.Text = "SAP Fee:";
             // 
             // Lesson_3_Activity
             // 
