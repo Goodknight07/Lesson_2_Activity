@@ -64,11 +64,23 @@
     <Compile Include="Example_3.Designer.cs">
       <DependentUpon>Example_3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Example_3_prntfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example_3_prntfrm.Designer.cs">
+      <DependentUpon>Example_3_prntfrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Example_5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Example_5.Designer.cs">
       <DependentUpon>Example_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example_5_PrintFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example_5_PrintFrm.Designer.cs">
+      <DependentUpon>Example_5_PrintFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Lesson_3_Activity.cs">
       <SubType>Form</SubType>
@@ -84,8 +96,14 @@
     <EmbeddedResource Include="Example_3.resx">
       <DependentUpon>Example_3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Example_3_prntfrm.resx">
+      <DependentUpon>Example_3_prntfrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Example_5.resx">
       <DependentUpon>Example_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example_5_PrintFrm.resx">
+      <DependentUpon>Example_5_PrintFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson_3_Activity.resx">
       <DependentUpon>Lesson_3_Activity.cs</DependentUpon>
