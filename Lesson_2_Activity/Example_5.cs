@@ -123,6 +123,27 @@ namespace Lesson_2_Activity
             Other_totalpayTxtbox.Text = other_netincome.ToString("n");
             grossincome = basic_netincome + hono_netincome + other_netincome;
             GrossIncomeTxtbox.Text = grossincome.ToString("n");
+            Pagibig_ContribTxtbox.Text = "200.00";
+        }
+
+        private void SSS_ContribTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Basic_RateTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Other_totalpayTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GrossIncomeTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void PrintBtn_Click(object sender, EventArgs e)
@@ -183,25 +204,60 @@ namespace Lesson_2_Activity
         {
             //codes for converting input data from textbox as string to numeric
             //codes for putting data from textboxes to variables
-            sss_contrib = Convert.ToDouble(SSS_ContribTxtbox.Text);
-            pagibig_contrib = Convert.ToDouble(Pagibig_ContribTxtbox.Text);
-            phihealth_contrib = Convert.ToDouble(PhilHealth_ContribTxtbox.Text);
-            tax_contrib = Convert.ToDouble(TaxtTxtbox.Text);
-            sss_loan = Convert.ToDouble(SSS_loanTxtbox.Text);
-            pagibig_loan = Convert.ToDouble(Pagibig_LoanTxtbox.Text);
-            salary_loan = Convert.ToDouble(SalaryloanTxtbox.Text);
-            faculty_sav_loan = Convert.ToDouble(Faculty_savingsloanTxtbox.Text);
-            salary_savings = Convert.ToDouble(Faculty_savingsdepositTxtbox.Text);
-            other_deduction = Convert.ToDouble(others_loanComboTxtbox.Text);
+            //sss_contrib = Convert.ToDouble(SSS_ContribTxtbox.Text);
+            //pagibig_contrib = Convert.ToDouble(Pagibig_ContribTxtbox.Text);
+            //phihealth_contrib = Convert.ToDouble(PhilHealth_ContribTxtbox.Text);
+            //tax_contrib = Convert.ToDouble(TaxtTxtbox.Text);
+            //sss_loan = Convert.ToDouble(SSS_loanTxtbox.Text);
+            //pagibig_loan = Convert.ToDouble(Pagibig_LoanTxtbox.Text);
+            //salary_loan = Convert.ToDouble(SalaryloanTxtbox.Text);
+            //faculty_sav_loan = Convert.ToDouble(Faculty_savingsloanTxtbox.Text);
+           // salary_savings = Convert.ToDouble(Faculty_savingsdepositTxtbox.Text);
+            //other_deduction = Convert.ToDouble(others_loanComboTxtbox.Text);
             //formula to compute the desired data to be computed
-            total_contrib = sss_contrib + pagibig_contrib + phihealth_contrib + tax_contrib;
-            total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
-            total_deduction = total_contrib + total_loan;
+            //total_contrib = sss_contrib + pagibig_contrib + phihealth_contrib + tax_contrib;
+            //total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
+           // total_deduction = total_contrib + total_loan;
             //code for converting numeric data to string and displayed it inside the textboxes
-            TotalDeductionTxtbox.Text = total_deduction.ToString("n");
-            netincome = grossincome - total_deduction;
-            NetIncomeTxtbox.Text = netincome.ToString("n");
+            //TotalDeductionTxtbox.Text = total_deduction.ToString("n");
+           // netincome = grossincome - total_deduction;
+            //NetIncomeTxtbox.Text = netincome.ToString("n");
 
+            try
+            {
+                sss_contrib = Convert.ToDouble(SSS_ContribTxtbox.Text);
+                pagibig_contrib = Convert.ToDouble(Pagibig_ContribTxtbox.Text);
+                phihealth_contrib = Convert.ToDouble(PhilHealth_ContribTxtbox.Text);
+                tax_contrib = Convert.ToDouble(TaxtTxtbox.Text);
+                sss_loan = Convert.ToDouble(SSS_loanTxtbox.Text);
+                pagibig_loan = Convert.ToDouble(Pagibig_LoanTxtbox.Text);
+                salary_loan = Convert.ToDouble(SalaryloanTxtbox.Text);
+                faculty_sav_loan = Convert.ToDouble(Faculty_savingsloanTxtbox.Text);
+                salary_savings = Convert.ToDouble(Faculty_savingsdepositTxtbox.Text);
+                other_deduction = Convert.ToDouble(others_loanComboTxtbox.Text);
+             
+                total_contrib = sss_contrib + pagibig_contrib + phihealth_contrib + tax_contrib;
+                total_loan = sss_loan + pagibig_loan + salary_loan + faculty_sav_loan + salary_savings + other_deduction;
+                total_deduction = total_contrib + total_loan;
+              
+                TotalDeductionTxtbox.Text = total_deduction.ToString("n");
+                netincome = grossincome - total_deduction;
+                NetIncomeTxtbox.Text = netincome.ToString("n");
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Enter Valid Data!");
+                SSS_ContribTxtbox.Focus();
+                Pagibig_ContribTxtbox.Focus();
+                PhilHealth_ContribTxtbox.Focus();
+                TaxtTxtbox.Focus();
+                SSS_loanTxtbox.Focus();
+                Pagibig_LoanTxtbox.Focus();
+                SalaryloanTxtbox.Focus();
+                Faculty_savingsloanTxtbox.Focus();
+                Faculty_savingsdepositTxtbox.Focus();
+                others_loanComboTxtbox.Focus();
+            }
 
         }
 

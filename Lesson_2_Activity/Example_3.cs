@@ -103,7 +103,7 @@ namespace Lesson_2_Activity
             FoodBundleB_RB.Checked= false;
 
             //code for inserting default image inside the picturebox
-            DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Image Folder\\Default.jpg");
+           // DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Image Folder\\Default.jpg");
             A_BucketfriesBox.Checked = false;
             A_ChickenBox.Checked = false;
             A_DeluxeburgerBox.Checked = false;
@@ -160,14 +160,32 @@ namespace Lesson_2_Activity
         private void button1_Click(object sender, EventArgs e)
         {
             double cash_given, change, total_amountPaid;
-            cash_given = Convert.ToDouble(CashGivenTxtbox.Text);
-            total_amountPaid = Convert.ToDouble(TotalBillsTxtbox.Text);
-            change = cash_given - total_amountPaid;
-            ChangeTxtbox.Text = change.ToString("n");
-            DisplayListbox.Items.Add("total Bills: " + " " + TotalBillsTxtbox.Text);
-            DisplayListbox.Items.Add("Cash Given: " + " " + CashGivenTxtbox.Text);
-            DisplayListbox.Items.Add("Change: " + " " + ChangeTxtbox.Text);
-            DisplayListbox.Items.Add("Total No. of Items:" + " " + TotalQtyTxtbox.Text);
+            //cash_given = Convert.ToDouble(CashGivenTxtbox.Text);
+            //total_amountPaid = Convert.ToDouble(TotalBillsTxtbox.Text);
+            //change = cash_given - total_amountPaid;
+            // ChangeTxtbox.Text = change.ToString("n");
+            //DisplayListbox.Items.Add("total Bills: " + " " + TotalBillsTxtbox.Text);
+            //DisplayListbox.Items.Add("Cash Given: " + " " + CashGivenTxtbox.Text);
+            //DisplayListbox.Items.Add("Change: " + " " + ChangeTxtbox.Text);
+            // DisplayListbox.Items.Add("Total No. of Items:" + " " + TotalQtyTxtbox.Text);
+
+            try
+            {
+                cash_given = Convert.ToDouble(CashGivenTxtbox.Text);
+                total_amountPaid = Convert.ToDouble(TotalBillsTxtbox.Text);
+                change = cash_given - total_amountPaid;
+                ChangeTxtbox.Text = change.ToString("n");
+                DisplayListbox.Items.Add("Total Bills: " + " " + TotalBillsTxtbox.Text);
+                DisplayListbox.Items.Add("Cash Given: " + " " + CashGivenTxtbox.Text);
+                DisplayListbox.Items.Add("Total No. of Items: " + " " + TotalQtyTxtbox.Text);
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Enter valid data in cash given textbox!");
+                CashGivenTxtbox.Clear();
+                CashGivenTxtbox.Focus();
+            }
+
         }
 
         private void Burger1IMG_Click(object sender, EventArgs e)
@@ -242,16 +260,36 @@ namespace Lesson_2_Activity
         private void QtyTxtbox_TextChanged(object sender, EventArgs e)
         {
             double price, discounted_amount, discount_amount;
+            //int qty;
+            //price = Convert.ToDouble(PriceTxtbox.Text);
+            //qty = Convert.ToInt32(QtyTxtbox.Text);
+            //discount_amount = Convert.ToDouble(DiscountTxtbox.Text);
+            // discounted_amount = (price * qty) - discount_amount;
+            //total_qty += qty;
+            //TotalQtyTxtbox.Text = total_qty.ToString();
+            // total_amount += discounted_amount;
+            //TotalBillsTxtbox.Text = total_amount.ToString("n");
+            //DiscountedTxtbox.Text = discounted_amount.ToString("n");
+
             int qty;
-            price = Convert.ToDouble(PriceTxtbox.Text);
-            qty = Convert.ToInt32(QtyTxtbox.Text);
-            discount_amount = Convert.ToDouble(DiscountTxtbox.Text);
-            discounted_amount = (price * qty) - discount_amount;
-            total_qty += qty;
-            TotalQtyTxtbox.Text = total_qty.ToString();
-            total_amount += discounted_amount;
-            TotalBillsTxtbox.Text = total_amount.ToString("n");
-            DiscountedTxtbox.Text = discounted_amount.ToString("n");
+            try
+            {
+                price = Convert.ToDouble(PriceTxtbox.Text);
+                qty = Convert.ToInt32(QtyTxtbox.Text);
+                discount_amount = Convert.ToDouble(DiscountTxtbox.Text);
+                discounted_amount = (price * qty) - discount_amount;
+                total_qty += qty;
+                TotalQtyTxtbox.Text = total_qty.ToString();
+                total_amount += discounted_amount;
+                TotalBillsTxtbox.Text = total_amount.ToString("n");
+                DiscountedTxtbox.Text = discounted_amount.ToString("n");
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Enter number of quantity ordered!");
+                QtyTxtbox.Focus();
+            }
+
         }
 
         private void Burger1CB_CheckedChanged(object sender, EventArgs e)

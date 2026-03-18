@@ -383,6 +383,7 @@
             this.Basic_RateTxtbox.Name = "Basic_RateTxtbox";
             this.Basic_RateTxtbox.Size = new System.Drawing.Size(289, 23);
             this.Basic_RateTxtbox.TabIndex = 33;
+            this.Basic_RateTxtbox.TextChanged += new System.EventHandler(this.Basic_RateTxtbox_TextChanged);
             // 
             // label13
             // 
@@ -494,6 +495,7 @@
             this.Other_totalpayTxtbox.Name = "Other_totalpayTxtbox";
             this.Other_totalpayTxtbox.Size = new System.Drawing.Size(228, 23);
             this.Other_totalpayTxtbox.TabIndex = 35;
+            this.Other_totalpayTxtbox.TextChanged += new System.EventHandler(this.Other_totalpayTxtbox_TextChanged);
             // 
             // Other_CutoffTxtbox
             // 
@@ -567,6 +569,7 @@
             this.GrossIncomeTxtbox.Name = "GrossIncomeTxtbox";
             this.GrossIncomeTxtbox.Size = new System.Drawing.Size(262, 23);
             this.GrossIncomeTxtbox.TabIndex = 33;
+            this.GrossIncomeTxtbox.TextChanged += new System.EventHandler(this.GrossIncomeTxtbox_TextChanged);
             // 
             // label22
             // 
@@ -653,6 +656,7 @@
             this.SSS_ContribTxtbox.Name = "SSS_ContribTxtbox";
             this.SSS_ContribTxtbox.Size = new System.Drawing.Size(282, 23);
             this.SSS_ContribTxtbox.TabIndex = 33;
+            this.SSS_ContribTxtbox.TextChanged += new System.EventHandler(this.SSS_ContribTxtbox_TextChanged);
             // 
             // label24
             // 

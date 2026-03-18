@@ -58,6 +58,12 @@
     <Compile Include="Activity_2_form.Designer.cs">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Activity_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activity_5.Designer.cs">
+      <DependentUpon>Activity_5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Example_3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Activity_2_form.resx">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activity_5.resx">
+      <DependentUpon>Activity_5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Example_3.resx">
       <DependentUpon>Example_3.cs</DependentUpon>
