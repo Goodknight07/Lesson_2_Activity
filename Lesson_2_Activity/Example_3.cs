@@ -33,26 +33,26 @@ namespace Lesson_2_Activity
             TotalQtyTxtbox.Enabled = false;
 
             //Inserting image to picturebox
-            Burger1IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image1.jpg");
-            Burger2IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image2.jpg");
-            Burger3IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image3.jpg");
-            Burger4IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image4.jpg");
-            Burger5IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image5.jpg");
-            Burger6IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image6.jpg");
-            Burger7IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image7.jpg");
-            Burger8IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image8.jpg");
-            Burger9IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image9.jpg");
-            Burger10IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image10.jpg");
-            Burger11IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image11.jpg");
-            Burger12IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image12.jpg");
-            Burger13IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image13.jpg");
-            Burger14IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image14.jpg");
-            Burger15IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image15.jpg");
-            Burger16IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image16.jpg");
-            Burger17IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image17.jpg");
-            Burger18IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image18.jpg");
-            Burger19IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image19.jpg");
-            Burger20IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Image20.jpg");
+            Burger1IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image1.jpg");
+            Burger2IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image2.jpg");
+            Burger3IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image3.jpg");
+            Burger4IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image4.jpg");
+            Burger5IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image5.jpg");
+            Burger6IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image6.jpg");
+            Burger7IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image7.jpg");
+            Burger8IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image8.jpg");
+            Burger9IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image9.jpg");
+            Burger10IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image10.jpg");
+            Burger11IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image11.jpg");
+            Burger12IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image12.jpg");
+            Burger13IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image13.jpg");
+            Burger14IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image14.jpg");
+            Burger15IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image15.jpg");
+            Burger16IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image16.jpg");
+            Burger17IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image17.jpg");
+            Burger18IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image18.jpg");
+            Burger19IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image19.jpg");
+            Burger20IMG.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Image20.jpg");
 
             //disable the checkboxes to prevent user input
             A_BucketfriesBox.Enabled = false;
@@ -203,7 +203,7 @@ namespace Lesson_2_Activity
             FoodBundleB_RB.Checked = false;
 
             // inserting image to picturebox
-            DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Food Bundle A.jpg");
+            DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Food Bundle A.jpg");
 
             // codes to check the checkboxes when food bundle A is selected
             A_BucketfriesBox.Checked = true;
@@ -241,7 +241,7 @@ namespace Lesson_2_Activity
         {
             this.BackColor = Color.LightBlue;
             FoodBundleA_RB.Checked = false;
-            DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\C203-21.C203-21\\source\\repos\\Lesson_2_Activity\\Assignment 1 and 2\\Image Folder\\Food Bundle B.jpg");
+            DisplayPicturebox.Image = System.Drawing.Image.FromFile("C:\\Users\\My Computer\\source\\repos\\Lesson_2_Activity\\Latest\\Image Folder\\Food Bundle B.jpg");
             A_BucketfriesBox.Checked = false;
             A_ChickenBox.Checked = false;
             A_DeluxeburgerBox.Checked = false;

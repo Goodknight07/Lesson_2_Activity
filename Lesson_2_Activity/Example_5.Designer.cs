@@ -358,6 +358,7 @@
             this.Basic_IncomepercutoffTxtbox.Name = "Basic_IncomepercutoffTxtbox";
             this.Basic_IncomepercutoffTxtbox.Size = new System.Drawing.Size(228, 23);
             this.Basic_IncomepercutoffTxtbox.TabIndex = 35;
+            this.Basic_IncomepercutoffTxtbox.TextChanged += new System.EventHandler(this.Basic_IncomepercutoffTxtbox_TextChanged);
             // 
             // Basic_CutoffTxtbox
             // 
@@ -615,6 +616,7 @@
             this.TaxtTxtbox.Name = "TaxtTxtbox";
             this.TaxtTxtbox.Size = new System.Drawing.Size(265, 23);
             this.TaxtTxtbox.TabIndex = 37;
+            this.TaxtTxtbox.TextChanged += new System.EventHandler(this.TaxtTxtbox_TextChanged);
             // 
             // Pagibig_ContribTxtbox
             // 
@@ -622,6 +624,7 @@
             this.Pagibig_ContribTxtbox.Name = "Pagibig_ContribTxtbox";
             this.Pagibig_ContribTxtbox.Size = new System.Drawing.Size(265, 23);
             this.Pagibig_ContribTxtbox.TabIndex = 35;
+            this.Pagibig_ContribTxtbox.TextChanged += new System.EventHandler(this.Pagibig_ContribTxtbox_TextChanged);
             // 
             // label26
             // 
@@ -708,6 +711,7 @@
             this.others_loanCombo.Name = "others_loanCombo";
             this.others_loanCombo.Size = new System.Drawing.Size(265, 23);
             this.others_loanCombo.TabIndex = 37;
+            this.others_loanCombo.SelectedIndexChanged += new System.EventHandler(this.others_loanCombo_SelectedIndexChanged);
             // 
             // SalaryloanTxtbox
             // 
@@ -768,6 +772,7 @@
             this.others_loanComboTxtbox.Name = "others_loanComboTxtbox";
             this.others_loanComboTxtbox.Size = new System.Drawing.Size(265, 23);
             this.others_loanComboTxtbox.TabIndex = 39;
+            this.others_loanComboTxtbox.TextChanged += new System.EventHandler(this.others_loanComboTxtbox_TextChanged);
             // 
             // Pagibig_LoanTxtbox
             // 
@@ -832,6 +837,7 @@
             this.TotalDeductionTxtbox.Name = "TotalDeductionTxtbox";
             this.TotalDeductionTxtbox.Size = new System.Drawing.Size(254, 47);
             this.TotalDeductionTxtbox.TabIndex = 33;
+            this.TotalDeductionTxtbox.TextChanged += new System.EventHandler(this.TotalDeductionTxtbox_TextChanged);
             // 
             // label34
             // 
