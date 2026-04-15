@@ -88,6 +88,18 @@
     <Compile Include="Example_5_PrintFrm.Designer.cs">
       <DependentUpon>Example_5_PrintFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lesson 7_example 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson 7_example 4.Designer.cs">
+      <DependentUpon>Lesson 7_example 4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson 7_example 6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson 7_example 6.Designer.cs">
+      <DependentUpon>Lesson 7_example 6.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lesson_3_Activity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Example_5_PrintFrm.resx">
       <DependentUpon>Example_5_PrintFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson 7_example 4.resx">
+      <DependentUpon>Lesson 7_example 4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson 7_example 6.resx">
+      <DependentUpon>Lesson 7_example 6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson_3_Activity.resx">
       <DependentUpon>Lesson_3_Activity.cs</DependentUpon>
