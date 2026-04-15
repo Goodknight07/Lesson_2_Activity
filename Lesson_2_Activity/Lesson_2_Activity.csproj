@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity_2.cs">
+    <Compile Include="Example_3_1st.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Activity_2.Designer.cs">
-      <DependentUpon>Activity_2.cs</DependentUpon>
+    <Compile Include="Example_3_1st.Designer.cs">
+      <DependentUpon>Example_3_1st.cs</DependentUpon>
     </Compile>
     <Compile Include="Activity_2_form.cs">
       <SubType>Form</SubType>
@@ -63,6 +63,12 @@
     </Compile>
     <Compile Include="Activity_5.Designer.cs">
       <DependentUpon>Activity_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example 4.Designer.cs">
+      <DependentUpon>Example 4.cs</DependentUpon>
     </Compile>
     <Compile Include="Example_3.cs">
       <SubType>Form</SubType>
@@ -106,13 +112,25 @@
     <Compile Include="Lesson_3_Activity.Designer.cs">
       <DependentUpon>Lesson_3_Activity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menustrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menustrip.Designer.cs">
+      <DependentUpon>Menustrip.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Example_3_1st.resx">
+      <DependentUpon>Example_3_1st.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Activity_2_form.resx">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Activity_5.resx">
       <DependentUpon>Activity_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example 4.resx">
+      <DependentUpon>Example 4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Example_3.resx">
       <DependentUpon>Example_3.cs</DependentUpon>
@@ -134,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson_3_Activity.resx">
       <DependentUpon>Lesson_3_Activity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menustrip.resx">
+      <DependentUpon>Menustrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
