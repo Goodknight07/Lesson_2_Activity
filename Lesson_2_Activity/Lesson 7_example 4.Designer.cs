@@ -350,6 +350,7 @@
             this.NetIncomeTxtbox.Name = "NetIncomeTxtbox";
             this.NetIncomeTxtbox.Size = new System.Drawing.Size(291, 20);
             this.NetIncomeTxtbox.TabIndex = 69;
+            this.NetIncomeTxtbox.TextChanged += new System.EventHandler(this.NetIncomeTxtbox_TextChanged);
             // 
             // GrossIncomeTxtbox
             // 

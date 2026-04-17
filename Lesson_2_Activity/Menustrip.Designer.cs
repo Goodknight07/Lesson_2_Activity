@@ -30,20 +30,22 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aCITIVTYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXAMPLEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sETTINGSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCTIVITY2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aCTIVITY5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY5ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.eXAMPLEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXAMPLE3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXAMPLE4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXAMPLE5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXAMPLE6ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCTIVITY5ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.sETTINGSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.lOGOUTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.sETTINGSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tILEVERTICALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tILEHORIZONTALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cASCADEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sETTINGSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lOGOUTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aCTIVITY3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,35 +67,13 @@
             this.aCITIVTYToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aCTIVITY2ToolStripMenuItem,
             this.aCTIVITY5ToolStripMenuItem,
-            this.aCTIVITY5ToolStripMenuItem1});
+            this.aCTIVITY5ToolStripMenuItem1,
+            this.aCTIVITY1ToolStripMenuItem,
+            this.aCTIVITY3ToolStripMenuItem});
             this.aCITIVTYToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aCITIVTYToolStripMenuItem.Name = "aCITIVTYToolStripMenuItem";
             this.aCITIVTYToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
             this.aCITIVTYToolStripMenuItem.Text = "ACTIVITY";
-            // 
-            // eXAMPLEToolStripMenuItem
-            // 
-            this.eXAMPLEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eXAMPLE3ToolStripMenuItem,
-            this.eXAMPLE4ToolStripMenuItem,
-            this.eXAMPLE5ToolStripMenuItem,
-            this.eXAMPLE6ToolStripMenuItem});
-            this.eXAMPLEToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eXAMPLEToolStripMenuItem.Name = "eXAMPLEToolStripMenuItem";
-            this.eXAMPLEToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
-            this.eXAMPLEToolStripMenuItem.Text = "EXAMPLE";
-            // 
-            // sETTINGSToolStripMenuItem
-            // 
-            this.sETTINGSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tILEVERTICALToolStripMenuItem,
-            this.tILEHORIZONTALToolStripMenuItem,
-            this.cASCADEToolStripMenuItem});
-            this.sETTINGSToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sETTINGSToolStripMenuItem.Name = "sETTINGSToolStripMenuItem";
-            this.sETTINGSToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
-            this.sETTINGSToolStripMenuItem.Text = "WINDOW";
-            this.sETTINGSToolStripMenuItem.Click += new System.EventHandler(this.sETTINGSToolStripMenuItem_Click);
             // 
             // aCTIVITY2ToolStripMenuItem
             // 
@@ -110,6 +90,25 @@
             this.aCTIVITY5ToolStripMenuItem.Text = "LESSON 3 ACTIVITY";
             this.aCTIVITY5ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY5ToolStripMenuItem_Click);
             // 
+            // aCTIVITY5ToolStripMenuItem1
+            // 
+            this.aCTIVITY5ToolStripMenuItem1.Name = "aCTIVITY5ToolStripMenuItem1";
+            this.aCTIVITY5ToolStripMenuItem1.Size = new System.Drawing.Size(195, 22);
+            this.aCTIVITY5ToolStripMenuItem1.Text = "ACTIVITY 5";
+            this.aCTIVITY5ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY5ToolStripMenuItem1_Click);
+            // 
+            // eXAMPLEToolStripMenuItem
+            // 
+            this.eXAMPLEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.eXAMPLE3ToolStripMenuItem,
+            this.eXAMPLE4ToolStripMenuItem,
+            this.eXAMPLE5ToolStripMenuItem,
+            this.eXAMPLE6ToolStripMenuItem});
+            this.eXAMPLEToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eXAMPLEToolStripMenuItem.Name = "eXAMPLEToolStripMenuItem";
+            this.eXAMPLEToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.eXAMPLEToolStripMenuItem.Text = "EXAMPLE";
+            // 
             // eXAMPLE3ToolStripMenuItem
             // 
             this.eXAMPLE3ToolStripMenuItem.Name = "eXAMPLE3ToolStripMenuItem";
@@ -120,46 +119,35 @@
             // eXAMPLE4ToolStripMenuItem
             // 
             this.eXAMPLE4ToolStripMenuItem.Name = "eXAMPLE4ToolStripMenuItem";
-            this.eXAMPLE4ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eXAMPLE4ToolStripMenuItem.Text = "EXAMPLE 4";
+            this.eXAMPLE4ToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.eXAMPLE4ToolStripMenuItem.Text = "LESSON 7 EXAMPLE 4";
             this.eXAMPLE4ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE4ToolStripMenuItem_Click);
             // 
             // eXAMPLE5ToolStripMenuItem
             // 
             this.eXAMPLE5ToolStripMenuItem.Name = "eXAMPLE5ToolStripMenuItem";
-            this.eXAMPLE5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eXAMPLE5ToolStripMenuItem.Text = "EXAMPLE 5";
+            this.eXAMPLE5ToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.eXAMPLE5ToolStripMenuItem.Text = "LESSON 7 EXAMPLE 5";
             this.eXAMPLE5ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE5ToolStripMenuItem_Click);
             // 
             // eXAMPLE6ToolStripMenuItem
             // 
             this.eXAMPLE6ToolStripMenuItem.Name = "eXAMPLE6ToolStripMenuItem";
-            this.eXAMPLE6ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.eXAMPLE6ToolStripMenuItem.Text = "EXAMPLE 6";
+            this.eXAMPLE6ToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.eXAMPLE6ToolStripMenuItem.Text = "LESSON 7 EXAMPLE 6";
             this.eXAMPLE6ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE6ToolStripMenuItem_Click);
             // 
-            // aCTIVITY5ToolStripMenuItem1
+            // sETTINGSToolStripMenuItem
             // 
-            this.aCTIVITY5ToolStripMenuItem1.Name = "aCTIVITY5ToolStripMenuItem1";
-            this.aCTIVITY5ToolStripMenuItem1.Size = new System.Drawing.Size(195, 22);
-            this.aCTIVITY5ToolStripMenuItem1.Text = "ACTIVITY 5";
-            this.aCTIVITY5ToolStripMenuItem1.Click += new System.EventHandler(this.aCTIVITY5ToolStripMenuItem1_Click);
-            // 
-            // sETTINGSToolStripMenuItem1
-            // 
-            this.sETTINGSToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lOGOUTToolStripMenuItem1});
-            this.sETTINGSToolStripMenuItem1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sETTINGSToolStripMenuItem1.Name = "sETTINGSToolStripMenuItem1";
-            this.sETTINGSToolStripMenuItem1.Size = new System.Drawing.Size(82, 20);
-            this.sETTINGSToolStripMenuItem1.Text = "SETTINGS";
-            // 
-            // lOGOUTToolStripMenuItem1
-            // 
-            this.lOGOUTToolStripMenuItem1.Name = "lOGOUTToolStripMenuItem1";
-            this.lOGOUTToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.lOGOUTToolStripMenuItem1.Text = "LOGOUT";
-            this.lOGOUTToolStripMenuItem1.Click += new System.EventHandler(this.lOGOUTToolStripMenuItem1_Click);
+            this.sETTINGSToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tILEVERTICALToolStripMenuItem,
+            this.tILEHORIZONTALToolStripMenuItem,
+            this.cASCADEToolStripMenuItem});
+            this.sETTINGSToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sETTINGSToolStripMenuItem.Name = "sETTINGSToolStripMenuItem";
+            this.sETTINGSToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.sETTINGSToolStripMenuItem.Text = "WINDOW";
+            this.sETTINGSToolStripMenuItem.Click += new System.EventHandler(this.sETTINGSToolStripMenuItem_Click);
             // 
             // tILEVERTICALToolStripMenuItem
             // 
@@ -181,6 +169,36 @@
             this.cASCADEToolStripMenuItem.Size = new System.Drawing.Size(187, 22);
             this.cASCADEToolStripMenuItem.Text = "CASCADE";
             this.cASCADEToolStripMenuItem.Click += new System.EventHandler(this.cASCADEToolStripMenuItem_Click);
+            // 
+            // sETTINGSToolStripMenuItem1
+            // 
+            this.sETTINGSToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lOGOUTToolStripMenuItem1});
+            this.sETTINGSToolStripMenuItem1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sETTINGSToolStripMenuItem1.Name = "sETTINGSToolStripMenuItem1";
+            this.sETTINGSToolStripMenuItem1.Size = new System.Drawing.Size(82, 20);
+            this.sETTINGSToolStripMenuItem1.Text = "SETTINGS";
+            // 
+            // lOGOUTToolStripMenuItem1
+            // 
+            this.lOGOUTToolStripMenuItem1.Name = "lOGOUTToolStripMenuItem1";
+            this.lOGOUTToolStripMenuItem1.Size = new System.Drawing.Size(128, 22);
+            this.lOGOUTToolStripMenuItem1.Text = "LOGOUT";
+            this.lOGOUTToolStripMenuItem1.Click += new System.EventHandler(this.lOGOUTToolStripMenuItem1_Click);
+            // 
+            // aCTIVITY1ToolStripMenuItem
+            // 
+            this.aCTIVITY1ToolStripMenuItem.Name = "aCTIVITY1ToolStripMenuItem";
+            this.aCTIVITY1ToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.aCTIVITY1ToolStripMenuItem.Text = "ACTIVITY 1";
+            this.aCTIVITY1ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY1ToolStripMenuItem_Click);
+            // 
+            // aCTIVITY3ToolStripMenuItem
+            // 
+            this.aCTIVITY3ToolStripMenuItem.Name = "aCTIVITY3ToolStripMenuItem";
+            this.aCTIVITY3ToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.aCTIVITY3ToolStripMenuItem.Text = "ACTIVITY 3";
+            this.aCTIVITY3ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY3ToolStripMenuItem_Click);
             // 
             // Menustrip
             // 
@@ -217,5 +235,7 @@
         private System.Windows.Forms.ToolStripMenuItem tILEVERTICALToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tILEHORIZONTALToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cASCADEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aCTIVITY3ToolStripMenuItem;
     }
 }

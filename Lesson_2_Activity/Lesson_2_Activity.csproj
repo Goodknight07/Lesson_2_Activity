@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Example_3_1st.cs">
+    <Compile Include="Activity1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Example_3_1st.Designer.cs">
-      <DependentUpon>Example_3_1st.cs</DependentUpon>
+    <Compile Include="Activity1.Designer.cs">
+      <DependentUpon>Activity1.cs</DependentUpon>
     </Compile>
     <Compile Include="Activity_2_form.cs">
       <SubType>Form</SubType>
@@ -58,17 +58,17 @@
     <Compile Include="Activity_2_form.Designer.cs">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Activity_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activity_3.Designer.cs">
+      <DependentUpon>Activity_3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Activity_5.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Activity_5.Designer.cs">
       <DependentUpon>Activity_5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Example 4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Example 4.Designer.cs">
-      <DependentUpon>Example 4.cs</DependentUpon>
     </Compile>
     <Compile Include="Example_3.cs">
       <SubType>Form</SubType>
@@ -120,17 +120,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Example_3_1st.resx">
-      <DependentUpon>Example_3_1st.cs</DependentUpon>
+    <EmbeddedResource Include="Activity1.resx">
+      <DependentUpon>Activity1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Activity_2_form.resx">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Activity_3.resx">
+      <DependentUpon>Activity_3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Activity_5.resx">
       <DependentUpon>Activity_5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Example 4.resx">
-      <DependentUpon>Example 4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Example_3.resx">
       <DependentUpon>Example_3.cs</DependentUpon>

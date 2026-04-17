@@ -1,4 +1,5 @@
-﻿using System;
+﻿using lesson_2_activity;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -103,6 +104,20 @@ namespace Lesson_2_Activity
         {
             //cascade the child forms
             this.LayoutMdi(MdiLayout.Cascade);
+        }
+
+        private void aCTIVITY1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Activity1 f = new Activity1();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void aCTIVITY3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Activity_3 f = new Activity_3();
+            f.MdiParent = this;
+            f.Show();
         }
     }
 }

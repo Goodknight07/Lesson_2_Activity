@@ -1,4 +1,6 @@
-﻿using System;
+﻿//using L;
+using lesson_2_activity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,7 +18,7 @@ namespace Lesson_2_Activity
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ACTIVITY());
+            Application.Run(new Menustrip());
         }
     }
 }

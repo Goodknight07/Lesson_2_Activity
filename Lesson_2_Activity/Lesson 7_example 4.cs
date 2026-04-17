@@ -38,6 +38,7 @@ namespace Lesson_2_Activity
                 net_income = grossincome - total_deduction;
                 TotalDeductionTxtbox.Text = total_deduction.ToString("C");
                 GrossIncomeTxtbox.Text = grossincome.ToString("C");
+                NetIncomeTxtbox.Text = net_income.ToString("C");
             }
             catch (Exception)
             {
@@ -48,6 +49,11 @@ namespace Lesson_2_Activity
         private void ExitBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void NetIncomeTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void Other_CutoffTxtbox_TextChanged(object sender, EventArgs e)
