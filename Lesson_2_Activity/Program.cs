@@ -18,7 +18,7 @@ namespace Lesson_2_Activity
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Lesson3_Example2_Methods());
+            Application.Run(new Lesson2_Example4_Class());
         }
     }
 }

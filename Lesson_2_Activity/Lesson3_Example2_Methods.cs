@@ -52,7 +52,7 @@ namespace Lesson_2_Activity
         }
         private void Lesson3_Example2_Methods_Load(object sender, EventArgs e)
         {
-            itemnametxtbox.Enabled = false;
+            //sitemnametxtbox.Enabled = false;
             pricetextbox.Enabled = false;
             discountedtxtbox.Enabled = false;
             qty_totaltxtbox.Enabled = false;
@@ -363,6 +363,11 @@ namespace Lesson_2_Activity
         {
             price_item_TextValue(name15LBL.Text, "599.50");
             quantityTxtbox();
+        }
+
+        private void cash_renderedtxtbox_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)

@@ -414,6 +414,7 @@
             this.cash_renderedtxtbox.Name = "cash_renderedtxtbox";
             this.cash_renderedtxtbox.Size = new System.Drawing.Size(169, 59);
             this.cash_renderedtxtbox.TabIndex = 26;
+            this.cash_renderedtxtbox.TextChanged += new System.EventHandler(this.cash_renderedtxtbox_TextChanged);
             // 
             // label9
             // 
