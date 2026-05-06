@@ -522,5 +522,50 @@ namespace Lesson_2_Activity
             QtyTxtbox.Text = "0";
             QtyTxtbox.Focus();
         }
+
+        private void PriceTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void A_ChickenBox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DiscountTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DiscountedTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TotalBillsTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TotalQtyTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CashGivenTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ChangeTxtbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DisplayListbox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

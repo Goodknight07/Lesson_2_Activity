@@ -205,6 +205,7 @@
             this.PriceTxtbox.Name = "PriceTxtbox";
             this.PriceTxtbox.Size = new System.Drawing.Size(179, 20);
             this.PriceTxtbox.TabIndex = 6;
+            this.PriceTxtbox.TextChanged += new System.EventHandler(this.PriceTxtbox_TextChanged);
             // 
             // QtyTxtbox
             // 
@@ -231,6 +232,7 @@
             this.DiscountTxtbox.Name = "DiscountTxtbox";
             this.DiscountTxtbox.Size = new System.Drawing.Size(179, 39);
             this.DiscountTxtbox.TabIndex = 10;
+            this.DiscountTxtbox.TextChanged += new System.EventHandler(this.DiscountTxtbox_TextChanged);
             // 
             // label6
             // 
@@ -259,6 +261,7 @@
             this.DiscountedTxtbox.Name = "DiscountedTxtbox";
             this.DiscountedTxtbox.Size = new System.Drawing.Size(179, 35);
             this.DiscountedTxtbox.TabIndex = 12;
+            this.DiscountedTxtbox.TextChanged += new System.EventHandler(this.DiscountedTxtbox_TextChanged);
             // 
             // TotalBillsTxtbox
             // 
@@ -267,6 +270,7 @@
             this.TotalBillsTxtbox.Name = "TotalBillsTxtbox";
             this.TotalBillsTxtbox.Size = new System.Drawing.Size(179, 28);
             this.TotalBillsTxtbox.TabIndex = 14;
+            this.TotalBillsTxtbox.TextChanged += new System.EventHandler(this.TotalBillsTxtbox_TextChanged);
             // 
             // label8
             // 
@@ -285,6 +289,7 @@
             this.TotalQtyTxtbox.Name = "TotalQtyTxtbox";
             this.TotalQtyTxtbox.Size = new System.Drawing.Size(165, 37);
             this.TotalQtyTxtbox.TabIndex = 16;
+            this.TotalQtyTxtbox.TextChanged += new System.EventHandler(this.TotalQtyTxtbox_TextChanged);
             // 
             // label9
             // 
@@ -303,6 +308,7 @@
             this.CashGivenTxtbox.Name = "CashGivenTxtbox";
             this.CashGivenTxtbox.Size = new System.Drawing.Size(179, 35);
             this.CashGivenTxtbox.TabIndex = 18;
+            this.CashGivenTxtbox.TextChanged += new System.EventHandler(this.CashGivenTxtbox_TextChanged);
             // 
             // label10
             // 
@@ -321,6 +327,7 @@
             this.ChangeTxtbox.Name = "ChangeTxtbox";
             this.ChangeTxtbox.Size = new System.Drawing.Size(179, 35);
             this.ChangeTxtbox.TabIndex = 20;
+            this.ChangeTxtbox.TextChanged += new System.EventHandler(this.ChangeTxtbox_TextChanged);
             // 
             // label11
             // 
@@ -465,6 +472,7 @@
             this.A_ChickenBox.TabIndex = 33;
             this.A_ChickenBox.Text = "Bucket of Spicy Crispy Chicken (8pcs)";
             this.A_ChickenBox.UseVisualStyleBackColor = true;
+            this.A_ChickenBox.CheckedChanged += new System.EventHandler(this.A_ChickenBox_CheckedChanged);
             // 
             // DisplayListbox
             // 
@@ -473,6 +481,7 @@
             this.DisplayListbox.Name = "DisplayListbox";
             this.DisplayListbox.Size = new System.Drawing.Size(386, 186);
             this.DisplayListbox.TabIndex = 38;
+            this.DisplayListbox.SelectedIndexChanged += new System.EventHandler(this.DisplayListbox_SelectedIndexChanged);
             // 
             // DisplayPicturebox
             // 

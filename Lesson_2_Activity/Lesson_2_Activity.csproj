@@ -46,23 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Activity1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Activity1.Designer.cs">
-      <DependentUpon>Activity1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Activity_2_form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Activity_2_form.Designer.cs">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Activity_3.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Activity_3.Designer.cs">
-      <DependentUpon>Activity_3.cs</DependentUpon>
     </Compile>
     <Compile Include="Activity_5.cs">
       <SubType>Form</SubType>
@@ -106,6 +94,24 @@
     <Compile Include="Lesson 7_example 6.Designer.cs">
       <DependentUpon>Lesson 7_example 6.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lesson2_Example4_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson2_Example4_Methods.Designer.cs">
+      <DependentUpon>Lesson2_Example4_Methods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson3_Example2_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson3_Example2_Methods.Designer.cs">
+      <DependentUpon>Lesson3_Example2_Methods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lesson4_Example3_Methods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson4_Example3_Methods.Designer.cs">
+      <DependentUpon>Lesson4_Example3_Methods.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lesson_3_Activity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,14 +126,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Activity1.resx">
-      <DependentUpon>Activity1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Activity_2_form.resx">
       <DependentUpon>Activity_2_form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Activity_3.resx">
-      <DependentUpon>Activity_3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Activity_5.resx">
       <DependentUpon>Activity_5.cs</DependentUpon>
@@ -149,6 +149,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson 7_example 6.resx">
       <DependentUpon>Lesson 7_example 6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson2_Example4_Methods.resx">
+      <DependentUpon>Lesson2_Example4_Methods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson3_Example2_Methods.resx">
+      <DependentUpon>Lesson3_Example2_Methods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson4_Example3_Methods.resx">
+      <DependentUpon>Lesson4_Example3_Methods.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lesson_3_Activity.resx">
       <DependentUpon>Lesson_3_Activity.cs</DependentUpon>

@@ -23,5 +23,10 @@ namespace Lesson_2_Activity
         {
 
         }
+
+        private void printDisplayListbox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,4 +1,4 @@
-﻿using lesson_2_activity;
+﻿using Lesson_2_Activity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -106,18 +106,12 @@ namespace Lesson_2_Activity
             this.LayoutMdi(MdiLayout.Cascade);
         }
 
-        private void aCTIVITY1ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Activity1 f = new Activity1();
-            f.MdiParent = this;
-            f.Show();
-        }
+       
+       
 
-        private void aCTIVITY3ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Menustrip_Load(object sender, EventArgs e)
         {
-            Activity_3 f = new Activity_3();
-            f.MdiParent = this;
-            f.Show();
+
         }
     }
 }

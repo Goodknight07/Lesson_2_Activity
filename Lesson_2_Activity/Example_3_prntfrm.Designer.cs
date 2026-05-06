@@ -49,6 +49,7 @@
             this.printDisplayListbox.Name = "printDisplayListbox";
             this.printDisplayListbox.Size = new System.Drawing.Size(421, 602);
             this.printDisplayListbox.TabIndex = 2;
+            this.printDisplayListbox.SelectedIndexChanged += new System.EventHandler(this.printDisplayListbox_SelectedIndexChanged);
             // 
             // Example_3_prntfrm
             // 

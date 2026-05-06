@@ -1,5 +1,5 @@
 ﻿//using L;
-using lesson_2_activity;
+using Lesson_2_Activity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +18,7 @@ namespace Lesson_2_Activity
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Menustrip());
+            Application.Run(new Lesson3_Example2_Methods());
         }
     }
 }

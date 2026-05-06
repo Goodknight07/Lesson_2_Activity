@@ -44,8 +44,6 @@
             this.cASCADEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sETTINGSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lOGOUTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCTIVITY1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aCTIVITY3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,9 +65,7 @@
             this.aCITIVTYToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aCTIVITY2ToolStripMenuItem,
             this.aCTIVITY5ToolStripMenuItem,
-            this.aCTIVITY5ToolStripMenuItem1,
-            this.aCTIVITY1ToolStripMenuItem,
-            this.aCTIVITY3ToolStripMenuItem});
+            this.aCTIVITY5ToolStripMenuItem1});
             this.aCITIVTYToolStripMenuItem.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aCITIVTYToolStripMenuItem.Name = "aCITIVTYToolStripMenuItem";
             this.aCITIVTYToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
@@ -112,7 +108,7 @@
             // eXAMPLE3ToolStripMenuItem
             // 
             this.eXAMPLE3ToolStripMenuItem.Name = "eXAMPLE3ToolStripMenuItem";
-            this.eXAMPLE3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eXAMPLE3ToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
             this.eXAMPLE3ToolStripMenuItem.Text = "EXAMPLE 3";
             this.eXAMPLE3ToolStripMenuItem.Click += new System.EventHandler(this.eXAMPLE3ToolStripMenuItem_Click);
             // 
@@ -186,20 +182,6 @@
             this.lOGOUTToolStripMenuItem1.Text = "LOGOUT";
             this.lOGOUTToolStripMenuItem1.Click += new System.EventHandler(this.lOGOUTToolStripMenuItem1_Click);
             // 
-            // aCTIVITY1ToolStripMenuItem
-            // 
-            this.aCTIVITY1ToolStripMenuItem.Name = "aCTIVITY1ToolStripMenuItem";
-            this.aCTIVITY1ToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.aCTIVITY1ToolStripMenuItem.Text = "ACTIVITY 1";
-            this.aCTIVITY1ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY1ToolStripMenuItem_Click);
-            // 
-            // aCTIVITY3ToolStripMenuItem
-            // 
-            this.aCTIVITY3ToolStripMenuItem.Name = "aCTIVITY3ToolStripMenuItem";
-            this.aCTIVITY3ToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.aCTIVITY3ToolStripMenuItem.Text = "ACTIVITY 3";
-            this.aCTIVITY3ToolStripMenuItem.Click += new System.EventHandler(this.aCTIVITY3ToolStripMenuItem_Click);
-            // 
             // Menustrip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -210,6 +192,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menustrip";
             this.Text = "Menustrip";
+            this.Load += new System.EventHandler(this.Menustrip_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -235,7 +218,5 @@
         private System.Windows.Forms.ToolStripMenuItem tILEVERTICALToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tILEHORIZONTALToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cASCADEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aCTIVITY1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aCTIVITY3ToolStripMenuItem;
     }
 }
