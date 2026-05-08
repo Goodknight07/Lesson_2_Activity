@@ -103,7 +103,7 @@ namespace Lesson_2_Activity
 
         private void NewBtn_Click(object sender, EventArgs e)
         {
-
+            //note
         }
 
         private void SaveBtn_Click(object sender, EventArgs e)
