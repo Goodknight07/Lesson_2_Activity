@@ -108,7 +108,7 @@ namespace Lesson_2_Activity
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            try
+            //try
             {
                 posdb_connect.pos_sql = "INSERT INTO pos_nameTbl ( pos_ id, name1, name2, name3, name4, name5, name6, name7, name8, name9, name10,name11, name12, name13, name14, name15, name16, name17, name18, name19, name20) VALUES ('" + pos_id_comboBox.Text + "','" + NameTxtbox1.Text + "','" + NameTxtbox2.Text + "','" + NameTxtbox3.Text + "', '" + NameTxtbox4.Text + "', '" + NameTxtbox5.Text + "', '" + NameTxtbox6.Text + "','" + NameTxtbox7.Text + "', '" + NameTxtbox8.Text + "', '" + NameTxtbox9.Text + "', '" + NameTxtbox10.Text + "', )";
 
